@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [W3SchoolsTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="W3SchoolsTest(failed)">
+    <parameter name="url2" value="https://www.google.com/"/>
+    <parameter name="url" value="https://www.w3schools.com/"/>
+    <classes>
+      <class name="Bhargav.Assignment.GoogleSearchTest">
+        <methods>
+          <include name="testGoogleSearch" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Bhargav.Assignment.GoogleSearchTest -->
+    </classes>
+  </test> <!-- W3SchoolsTest(failed) -->
+</suite> <!-- Failed suite [W3SchoolsTest] -->

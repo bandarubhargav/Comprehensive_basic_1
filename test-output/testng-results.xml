@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T13:09:17 IST" name="Bhargav" finished-at="2023-08-31T13:09:54 IST" duration-ms="37065">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T13:09:17 IST" name="Bhargav" finished-at="2023-08-31T13:09:54 IST" duration-ms="37065">
+      <class name="Bhargav.Assignment.GoogleSearchTest">
+        <test-method signature="testGoogleSearch(java.lang.String)[pri:0, instance:Bhargav.Assignment.GoogleSearchTest@2d7275fc]" started-at="2023-08-31T13:09:51 IST" name="testGoogleSearch" data-provider="data" finished-at="2023-08-31T13:09:54 IST" duration-ms="2538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+      </class> <!-- Bhargav.Assignment.GoogleSearchTest -->
+      <class name="Bhargav.Assignment.W3SchoolsTest">
+        <test-method signature="testW3Schools(java.lang.String)[pri:0, instance:Bhargav.Assignment.W3SchoolsTest@1aa7ecca]" started-at="2023-08-31T13:09:17 IST" name="testW3Schools" data-provider="data" finished-at="2023-08-31T13:09:49 IST" duration-ms="32028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.w3schools.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testW3Schools -->
+        <test-method signature="testW3Schools(java.lang.String)[pri:0, instance:Bhargav.Assignment.W3SchoolsTest@1aa7ecca]" started-at="2023-08-31T13:09:49 IST" name="testW3Schools" data-provider="data" finished-at="2023-08-31T13:09:51 IST" duration-ms="2461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testW3Schools -->
+      </class> <!-- Bhargav.Assignment.W3SchoolsTest -->
+    </test> <!-- Bhargav -->
+  </suite> <!-- Bhargav -->
+</testng-results>
